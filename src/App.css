@@ -5,7 +5,7 @@ header {
   padding-top: 15px;
   font-size: 24px;
   border-bottom: 4px solid #ffa500;
-  background-color: rgba(33,33,33,0.5);
+  background-color: rgba(33, 33, 33, 0.5);
   color: #fff;
 }
 
@@ -18,4 +18,36 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.popup {
+  width: 250px;
+  position: absolute;
+  top: 111px;
+  left: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.popup .format-actions {
+  margin: 0;
+  width: auto;
+}
+
+.popup .control-panel {
+  align-items: flex-start;
+  padding: 0;
 }
